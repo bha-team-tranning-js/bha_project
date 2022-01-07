@@ -511,7 +511,6 @@ INSERT INTO `purchase_order_status` (`id`, `status`) VALUES (1, 'Submitted');
 INSERT INTO `purchase_order_status` (`id`, `status`) VALUES (2, 'Approved');
 INSERT INTO `purchase_order_status` (`id`, `status`) VALUES (3, 'Closed');
 # 4 records
-
 #
 # Dumping data for table 'purchase_orders'
 #

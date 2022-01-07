@@ -265,12 +265,15 @@ DEFAULT CHARACTER SET = utf8;
 -- -----------------------------------------------------
 -- Table `northwind`.`purchase_order_status`
 -- -----------------------------------------------------
+
+-- id không tự tăng --
 CREATE TABLE IF NOT EXISTS `northwind`.`purchase_order_status` (
   `id` INT(11) NOT NULL,
   `status` VARCHAR(50) NULL DEFAULT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
+
 
 
 -- -----------------------------------------------------
