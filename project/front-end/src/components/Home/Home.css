@@ -1,0 +1,12 @@
+.chart p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.chart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-chart{
+    width: 50%;
+}

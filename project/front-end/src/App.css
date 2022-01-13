@@ -1,0 +1,60 @@
+/* Dashboard-admin */ 
+.Dashboard-admin{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Content{
+  background-color:rgb(255, 255, 255);
+  width:95%;
+  text-align: center;
+}
+
+.header{
+  border-bottom: 1px solid rgb(170, 169, 169);
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.header h2{
+  padding: 25px 0px;
+}
+
+/* button */
+.btn{
+  color:#fff;
+  border-radius: 5px;
+  width: 50px;
+  height: 30px;
+  border: none;
+  transition: all 0.3s; 
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn:hover{
+  transform: scale(1.2);
+  box-shadow: 2px 3px #888888
+}
+.btn-primary{
+  background-image: linear-gradient(to right top,rgb(197, 181, 181),#eb8950)
+}
+.btn-blue{
+  background-color: #65B6EB;
+}
+.btn-pending{
+  background-color: #FEB019;
+}
+.btn-danger{
+  background-color:#EB7F97;
+}
+.btn-success{
+  background-color:#00E200;
+}
+.btn-disabled{
+  cursor: not-allowed;
+}

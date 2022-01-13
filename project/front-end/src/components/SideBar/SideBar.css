@@ -1,0 +1,29 @@
+.SideBar{
+    width: 5%;
+    height: 100vh;
+}
+.SideBar button{
+    position: fixed;
+    top: 27px;
+    left:20px;
+    background-color:rgb(187, 154, 101);
+}
+
+
+
+.SideBar ul{
+    width:inherit;
+    position: fixed;
+    top:50%;
+    transform: translate(0,-50%);
+    list-style-type: none;
+}
+.SideBar ul li{
+    border: 1px solid rgb(185, 176, 176);
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.SideBar li:hover{
+    background-color:rgb(187, 154, 101);
+}
